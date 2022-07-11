@@ -19,6 +19,7 @@ import MuiDrawer from "./components/MuiDrawer";
 import MuiSpeedDial from "./components/MuiSpeedDial";
 import MuiBottomNavigation from "./components/MuiBottomNavigation";
 import MuiAvatar from "./components/MuiAvatar";
+import MuiBadge from "./components/MuiBadge";
 
 const App = () => {
 	return (
@@ -43,6 +44,7 @@ const App = () => {
 			<MuiSpeedDial />
 			<MuiBottomNavigation />
 			<MuiAvatar />
+			<MuiBadge />
 		</div>
 	);
 };
