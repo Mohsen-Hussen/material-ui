@@ -21,6 +21,7 @@ import MuiBottomNavigation from "./components/MuiBottomNavigation";
 import MuiAvatar from "./components/MuiAvatar";
 import MuiBadge from "./components/MuiBadge";
 import MuiList from "./components/MuiList";
+import MuiChip from "./components/MuiChip";
 
 const App = () => {
 	return (
@@ -41,12 +42,13 @@ const App = () => {
 			<MuiNavbar />
 			{/* <MuiLink /> */}
 			<MuiBreadcrumbs />
-			<MuiDrawer />
+			{/* <MuiDrawer /> */}
 			<MuiSpeedDial />
-			<MuiBottomNavigation />
-			<MuiAvatar />
-			<MuiBadge />
-			<MuiList />
+			{/* <MuiBottomNavigation /> */}
+			{/* <MuiAvatar /> */}
+			{/* <MuiBadge /> */}
+			{/* <MuiList /> */}
+			<MuiChip />
 		</div>
 	);
 };
