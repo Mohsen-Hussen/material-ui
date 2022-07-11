@@ -18,6 +18,7 @@ import MuiBreadcrumbs from "./components/MuiBreadcrumbs";
 import MuiDrawer from "./components/MuiDrawer";
 import MuiSpeedDial from "./components/MuiSpeedDial";
 import MuiBottomNavigation from "./components/MuiBottomNavigation";
+import MuiAvatar from "./components/MuiAvatar";
 
 const App = () => {
 	return (
@@ -41,6 +42,7 @@ const App = () => {
 			<MuiDrawer />
 			<MuiSpeedDial />
 			<MuiBottomNavigation />
+			<MuiAvatar />
 		</div>
 	);
 };
