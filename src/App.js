@@ -24,6 +24,7 @@ import MuiList from "./components/MuiList";
 import MuiChip from "./components/MuiChip";
 import MuiToolTip from "./components/MuiToolTip";
 import MuiTable from "./components/MuiTable";
+import MuiAlert from "./components/MuiAlert";
 
 const App = () => {
 	return (
@@ -43,9 +44,9 @@ const App = () => {
 			{/* <MuiImageList /> */}
 			<MuiNavbar />
 			{/* <MuiLink /> */}
-			<MuiBreadcrumbs />
+			{/* <MuiBreadcrumbs /> */}
 			{/* <MuiDrawer /> */}
-			<MuiSpeedDial />
+			{/* <MuiSpeedDial /> */}
 			{/* <MuiBottomNavigation /> */}
 			{/* <MuiAvatar /> */}
 			{/* <MuiBadge /> */}
@@ -53,6 +54,7 @@ const App = () => {
 			{/* <MuiChip /> */}
 			{/* <MuiToolTip /> */}
 			<MuiTable />
+			<MuiAlert />
 		</div>
 	);
 };
