@@ -26,6 +26,7 @@ import MuiToolTip from "./components/MuiToolTip";
 import MuiTable from "./components/MuiTable";
 import MuiAlert from "./components/MuiAlert";
 import MuiSnackBar from "./components/MuiSnackBar";
+import MuiDialog from "./components/MuiDialog";
 
 const App = () => {
 	return (
@@ -57,6 +58,7 @@ const App = () => {
 			{/* <MuiTable /> */}
 			{/* <MuiAlert /> */}
 			<MuiSnackBar />
+			<MuiDialog />
 		</div>
 	);
 };
