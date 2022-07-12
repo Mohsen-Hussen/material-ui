@@ -23,6 +23,7 @@ import MuiBadge from "./components/MuiBadge";
 import MuiList from "./components/MuiList";
 import MuiChip from "./components/MuiChip";
 import MuiToolTip from "./components/MuiToolTip";
+import MuiTable from "./components/MuiTable";
 
 const App = () => {
 	return (
@@ -49,8 +50,9 @@ const App = () => {
 			{/* <MuiAvatar /> */}
 			{/* <MuiBadge /> */}
 			{/* <MuiList /> */}
-			<MuiChip />
-			<MuiToolTip />
+			{/* <MuiChip /> */}
+			{/* <MuiToolTip /> */}
+			<MuiTable />
 		</div>
 	);
 };
