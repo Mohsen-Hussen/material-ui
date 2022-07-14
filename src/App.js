@@ -29,6 +29,7 @@ import MuiSnackBar from "./components/MuiSnackBar";
 import MuiDialog from "./components/MuiDialog";
 import MuiProgress from "./components/MuiProgress";
 import MuiSkeleton from "./components/MuiSkeleton";
+import MuiLoadingButton from "./components/MuiLoadingButton";
 
 const App = () => {
 	return (
@@ -63,6 +64,7 @@ const App = () => {
 			<MuiDialog />
 			<MuiProgress />
 			<MuiSkeleton />
+			<MuiLoadingButton />
 		</div>
 	);
 };
