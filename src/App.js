@@ -30,7 +30,8 @@ import MuiNavbar from "./components/MuiNavbar";
 // import MuiProgress from "./components/MuiProgress";
 // import MuiSkeleton from "./components/MuiSkeleton";
 // import MuiLoadingButton from "./components/MuiLoadingButton";
-import MuiDateTimePicker from "./components/MuiDateTimePicker";
+// import MuiDateTimePicker from "./components/MuiDateTimePicker";
+import MuiDateRangePicker from "./components/MuiDateRangePicker";
 
 const App = () => {
 	return (
@@ -66,7 +67,8 @@ const App = () => {
 			{/* <MuiProgress /> */}
 			{/* <MuiSkeleton /> */}
 			{/* <MuiLoadingButton /> */}
-			<MuiDateTimePicker />
+			{/* <MuiDateTimePicker /> */}
+			<MuiDateRangePicker />
 		</div>
 	);
 };
