@@ -14,22 +14,23 @@ import "./App.css";
 // import MuiImageList from "./components/MuiImageList";
 import MuiNavbar from "./components/MuiNavbar";
 // import MuiLink from "./components/MuiLink";
-import MuiBreadcrumbs from "./components/MuiBreadcrumbs";
-import MuiDrawer from "./components/MuiDrawer";
-import MuiSpeedDial from "./components/MuiSpeedDial";
-import MuiBottomNavigation from "./components/MuiBottomNavigation";
-import MuiAvatar from "./components/MuiAvatar";
-import MuiBadge from "./components/MuiBadge";
-import MuiList from "./components/MuiList";
-import MuiChip from "./components/MuiChip";
-import MuiToolTip from "./components/MuiToolTip";
-import MuiTable from "./components/MuiTable";
-import MuiAlert from "./components/MuiAlert";
-import MuiSnackBar from "./components/MuiSnackBar";
-import MuiDialog from "./components/MuiDialog";
-import MuiProgress from "./components/MuiProgress";
-import MuiSkeleton from "./components/MuiSkeleton";
-import MuiLoadingButton from "./components/MuiLoadingButton";
+// import MuiBreadcrumbs from "./components/MuiBreadcrumbs";
+// import MuiDrawer from "./components/MuiDrawer";
+// import MuiSpeedDial from "./components/MuiSpeedDial";
+// import MuiBottomNavigation from "./components/MuiBottomNavigation";
+// import MuiAvatar from "./components/MuiAvatar";
+// import MuiBadge from "./components/MuiBadge";
+// import MuiList from "./components/MuiList";
+// import MuiChip from "./components/MuiChip";
+// import MuiToolTip from "./components/MuiToolTip";
+// import MuiTable from "./components/MuiTable";
+// import MuiAlert from "./components/MuiAlert";
+// import MuiSnackBar from "./components/MuiSnackBar";
+// import MuiDialog from "./components/MuiDialog";
+// import MuiProgress from "./components/MuiProgress";
+// import MuiSkeleton from "./components/MuiSkeleton";
+// import MuiLoadingButton from "./components/MuiLoadingButton";
+import MuiDateTimePicker from "./components/MuiDateTimePicker";
 
 const App = () => {
 	return (
@@ -60,11 +61,12 @@ const App = () => {
 			{/* <MuiToolTip /> */}
 			{/* <MuiTable /> */}
 			{/* <MuiAlert /> */}
-			<MuiSnackBar />
-			<MuiDialog />
-			<MuiProgress />
-			<MuiSkeleton />
-			<MuiLoadingButton />
+			{/* <MuiSnackBar /> */}
+			{/* <MuiDialog /> */}
+			{/* <MuiProgress /> */}
+			{/* <MuiSkeleton /> */}
+			{/* <MuiLoadingButton /> */}
+			<MuiDateTimePicker />
 		</div>
 	);
 };
