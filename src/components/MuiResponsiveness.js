@@ -13,7 +13,7 @@ const MuiResponsiveness = () => {
 					xl: "500", // 1536
 				},
 				height: "300px",
-				bgcolor: "primary.main",
+				bgcolor: "secondary.main",
 			}}
 		></Box>
 	);
