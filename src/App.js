@@ -33,7 +33,8 @@ import MuiNavbar from "./components/MuiNavbar";
 // import MuiDateTimePicker from "./components/MuiDateTimePicker";
 // import MuiDateRangePicker from "./components/MuiDateRangePicker";
 // import MuiTabs from "./components/MuiTabs";
-import MuiTimeline from "./components/MuiTimeline";
+// import MuiTimeline from "./components/MuiTimeline";
+import MuiMasonry from "./components/MuiMasonry";
 
 const App = () => {
 	return (
@@ -72,7 +73,8 @@ const App = () => {
 			{/* <MuiDateTimePicker /> */}
 			{/* <MuiDateRangePicker /> */}
 			{/* <MuiTabs /> */}
-			<MuiTimeline />
+			{/* <MuiTimeline /> */}
+			<MuiMasonry />
 		</div>
 	);
 };
